@@ -1,0 +1,239 @@
+extends ../loyout
+
+block variables
+    - var title= "Solomon"
+
+block content
+
+    header.header
+        .container
+            .header-block
+                .header-logo
+                    a.header-logo__link Binary Option Broker
+                .header-nav
+                    nav.nav
+                        ul.nav-list
+                            li.nav-item
+                                a.nav-item__link Binary Options
+                            li.nav-item
+                                a.nav-item__link Support
+                            li.nav-item
+                                a.nav-item__link Training
+                            li.nav-item
+                                a.nav-item__link Contacts
+                .header-search
+                    svg.header-search__svg(width="100%" height="100%")
+                        use(xlink:href="images/icons/sprite.svg#zoom")
+                .header-button
+                    button.btn.btn--trade Trade
+                    button.btn Deposit
+                .header-lang
+                    span.header-lang__text ENG
+                .header-menu
+                    svg.header-menu__svg(width="100%" height="100%")
+                        use(xlink:href="images/icons/sprite.svg#user")
+                    svg.header-menu__svg(width="100%" height="100%")
+                        use(xlink:href="images/icons/sprite.svg#menu")
+    section.main-section
+        .container-min
+            .main
+                .main-top
+                    .main-left
+                        .main-title Choose deposit amount:
+                    .main-right
+                        .main-title Payment method:
+                .main-bottom
+                    .main-left.main-left--bottom
+                        table.main-table.main-table--vip
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 30000Baht
+                                    span.main-table__signature.main-table__signature--left You pay
+                                td.main-table__col.main-table__col-pers 60%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 48000Baht
+                                    span.main-table__signature.main-table__signature--right You get
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 15000Baht
+                                td.main-table__col.main-table__col-pers 43%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 21450Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 8000Baht
+                                td.main-table__col.main-table__col-pers 40%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 11200Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 5000Baht
+                                td.main-table__col.main-table__col-pers 37%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 6850Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 30000Baht
+                                td.main-table__col.main-table__col-pers 30%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 3900Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 2000Baht
+                                td.main-table__col.main-table__col-pers 27%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 2540Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 1000Baht
+                                td.main-table__col.main-table__col-pers 22%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 1220Baht
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Baht" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-depos 400Baht
+                                td.main-table__col.main-table__col-pers 10%
+                                td.main-table__col.main-table__col-equally =
+                                td.main-table__col.main-table__col-res 440Baht
+
+                    .main-right.main-right--bottom
+                        table.main-table
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Pay" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-method
+                                    .col-method__content
+                                        svg.col-method__svg(width="100%" height="100%")
+                                            use(xlink:href="images/icons/sprite.svg#card")
+                                        .col-method__title Cards
+                                td.main-table__col.main-table__col-bonus
+                                    .col-bonus__content
+                                        span.col-bonus__content-persent 10%
+                                        span.col-bonus__content-text Bonus
+                                td.main-table__col.main-table__col-visa
+                                    ul.col-visa__list
+                                        li.col-visa__item
+                                            img.col-visa__img(src='images/icons/visa.png')
+                                        li.col-visa__item
+                                            img.col-visa__img(src='images/icons/mastercard.png')
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Pay" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-method
+                                    .col-method__content
+                                        svg.col-method__svg(width="100%" height="100%")
+                                            use(xlink:href="images/icons/sprite.svg#assest")
+                                        .col-method__title Offline Banking
+                                td.main-table__col.main-table__col-banks(colspan="2")
+                                    ul.col-banks__list
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-3.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-5.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-2.png')
+                            tr.main-table__row
+                                td.main-table__col.main-table__col-check
+                                    label.main-table__label
+                                        input.main-table__input(name="Pay" type="radio")
+                                        .main-table__input-my
+                                td.main-table__col.main-table__col-method
+                                    .col-method__content
+                                        svg.col-method__svg(width="100%" height="100%")
+                                            use(xlink:href="images/icons/sprite.svg#imac")
+                                        .col-method__title.col-method__title-two Cryptocurrency payments
+                                td.main-table__col.main-table__col-banks(colspan="2")
+                                    ul.col-banks__list
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-1.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-2.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-3.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-4.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-5.png')
+                                        li.col-banks__item
+                                            a.col-banks__link(href="#")
+                                                img.col-banks__img(src='images/icons/icon-6.png')
+    section.pay-section
+        .container-min
+            form.pay
+                .pay-block
+                    .pay-block__title You pay
+                    label.pay-label
+                        input.pay-input(type="text" value="3000")
+                .pay-plus +
+                .pay-block
+                    .pay-block__title You Bonus
+                    label.pay-label__select
+                        select.pay-select
+                            option 15000Bath
+                .pay-block
+                    .pay-block__promo
+                        .pay-block__title Promo Code:
+                        button.btn.btn-promo(type="submit") Enter Promo Code
+                .pay-block.pay-block--get
+                    .pay-block__title You get:
+                        .pay-block__content
+                            span.pay-block__equally =
+                            | 2540Bath
+                .pay-block.pay-block--btn
+                    button.btn.btn-pay Pay
+    section.security-section
+        .container-min
+            .security
+                .security-polit
+                    label.security-polit__label
+                        input.security-polit__input(type="checkbox")
+                        .security-polit__input-my
+                        .security-polit__text I agree with the
+                            | &nbsp
+                            a.security-polit__link(href="#") Bonus Policy
+                .security-company
+                    ul.security-logo__list
+                        li.security-logo__item
+                            img.security-logo(src="images/content/verifiedVisa.jpg")
+                        li.security-logo__item
+                            img.security-logo(src="images/content/GlobalSign.png")
+                        li.security-logo__item
+                            img.security-logo(src="images/content/mcSC.png")
+                        li.security-logo__item
+                            img.security-logo(src="images/content/3d_secure.jpg")
